@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICKERS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="basketstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://myfonts.ru/myfonts?fonts=fifaks-10-dev1" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body id="backgr">
+
+    <header class="header">
+        <nav  style="background-color: rgb(32, 30, 30);">
+            <div style="text-align: center;">
+              <a style="color:rgb(223, 219, 34); font-weight: 800;display: block; text-align: center; font-size: 25px;  font-family: 'Pixel', sans-serif;" class="navbar-brand" href="#">
+                <img class="coin" src="image/pngwing.com (1).png" alt="Logo" width="30" height="24" class="" style="text-align: center; ">
+                CLICK-COIN
+              </a>
+            </div>
+          </nav>
+    </header>
+
+
+<div class="clickersbody">
+    <main>
+      <div id="display"></div>
+          <div id="bank">0</div>
+            <div class="coinbutton">
+              <button id="btn" >
+                <image src="image/pngwing.com (1).png" id="maincoin1"></image>
+              </button>
+            </div>
+    </main>
+
+    <div class="basket" >
+      <button id="btnbasket">
+      <img src="image/basket (1).png" id="baskt">
+    </button>
+  
+    <button id="btnbasket" style="margin-right: 60px;">
+      <img src="image/house(1).png" id="baskt" style="width: 70px; height: 70px; ">
+    </button>
+    </div>
+  </div>
+
+
+
+    <div id="bodybasket">
+      <div style="float:top; text-align: center; border: 5px solid white; border-radius: 50px;">
+          <h1 style="color:white; font-size: 70px;">BASKET</h1>
+      </div>
+  
+      <div style="border: 2px solid white; border-radius: 20px; width: auto; margin-top: 40px;">
+              <button class="mexsik">
+                  <img src="imageredact/мексиканский-coin.png"  style="width: 300px; height: 220px;" id="mix">
+              </button>
+              <button id="classic" >
+                <image src="imageredact/классик.png" id="maincoin1" style="width: 300px; height: 220px;" ></image>
+              </button>
+      </div>
+  
+  
+  
+      <div class="down" style="text-align: center;">
+          <image src="image/pngwing.com (1).png" id="maincoin2"></image>
+          <button id="btnbasket2" style="margin-right: 60px; background-color: rgb(39, 37, 37); border: none; float: right; margin-top: 90px;">
+              <img src="image/house(1).png" id="baskt" style="width: 70px; height: 70px; ">
+            </button>
+      </div>
+  
+  </div>
+     
+    <script src="main.js"></script>
+    <script src="basket-js.js"></script>
+</body>
+</html>

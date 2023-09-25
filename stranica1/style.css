@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/pixel');
+#backgr{
+    background-color: rgb(39, 37, 37);
+}
+
+.coin {
+    width:70px;
+    height: 70px;
+    background-color: rgb(32, 30, 30);
+}
+
+#maincoin1 {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.clickersbody {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#bank{
+    text-align: center;
+    font-family: 'Pixel', sans-serif;
+    font-size: 48px;
+    text-shadow: 1px 1px 4px #aaa;
+    width:auto;
+    height: auto;
+    margin-top: 100px; 
+    color:aliceblue;
+}
+
+#btn {
+cursor: pointer;
+border: none;
+background-color: rgb(39, 37, 37);
+}
+
+.coinbutton {
+text-align: center;
+}
+
+#baskt {
+   width: 100px;
+   height: 100px;
+}
+
+.basket{
+    text-align: center;
+    border-top: 3px solid white;
+    height: 200px;
+    background-color: rgb(39, 37, 37);
+
+}
+
+#btnbasket {
+display: inline-block;
+    margin-right: 60px;
+    cursor: pointer;
+border: none;
+background-color: rgb(39, 37, 37);
+}
+
+#bodybasket {
+    display: none;
+justify-content: center;
+flex-direction: column;
+}
+
+
+#bg {
+    background-color: rgb(39, 37, 37);
+}
+
+    .mexsik {
+        cursor: pointer;
+        position: relative;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(99, 95, 95);
+        max-width: auto;
+        max-height: 230px;
+    }
+
+    #maincoin2{
+        max-width:300px;
+        max-height: 220px;
+    }
+
+    .down {
+        margin-top: 300px;
+    }
+
+    #baskt {
+        cursor: pointer;
+        border: none;
+        background-color: rgb(39, 37, 37);
+    }
+
+    #classic {
+        cursor: pointer;
+        position: relative;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(99, 95, 95);
+        max-width: auto;
+        max-height: 230px;
+    }
